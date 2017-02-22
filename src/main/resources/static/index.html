@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desafio Bluesoft</title>
+    <link rel="stylesheet" href="vendor/bootstrap-css-only/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-css-only/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="vendor/angular-bootstrap/ui-bootstrap-csp.css">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+    <nav-bar></nav-bar>
+    <div ui-view></div>
+
+    <script src="js/components/navbar/controller.js"></script>
+    <script src="js/components/navbar/directive.js"></script>
+
+    <script src="js/features/fornecedor/services/service.js"></script>
+    <script src="js/features/pedidos/services/service.js"></script>
+    <script src="js/features/produto/services/service.js"></script>
+    <script src="js/features/comprador/services/service.js"></script>
+    
+
+    <script src="js/features/home/router.js"></script>
+    <script src="js/features/home/controllers/controller.js"></script>
+
+    <script src="js/features/pedidos/router.js"></script>
+    <script src="js/features/pedidos/controllers/controller.js"></script>
+
+
+    <script src="js/config/config.js"></script>
+  </body>
+
+
+
+
+
+</html>

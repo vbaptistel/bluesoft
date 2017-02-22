@@ -1,0 +1,9 @@
+{
+  "name": "desafio-bluesoft",
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-ui-router": "0.3.1",
+    "bootstrap-css-only": "^3.3.6",
+    "angular-bootstrap": "^2.0.1"
+  }
+}
